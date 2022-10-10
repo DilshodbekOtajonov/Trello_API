@@ -16,11 +16,11 @@ import java.util.Set;
  */
 
 public class MyBot extends TelegramLongPollingBot {
-    private static Set<String> chatIds = new HashSet<>(Set.of("1138427488"));
+    private static Set<String> chatIds = new HashSet<>(Set.of("1138427488")); //Chat ids are automatically added to hashset but you can save them at database of your choice.
 
     @Override
     public String getBotToken() {
-        return "5388859098:AAEZQAFqHSPskKgOBS9aRgUFUeR_ZNrHxw4";
+        return ""; // enter bot token. You can take it from botFather on telegram.
     }
 
     @Override
