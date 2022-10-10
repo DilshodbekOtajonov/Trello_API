@@ -16,6 +16,11 @@ spring.datasource.username=<datasource_username>
 spring.datasource.password=<password>
 ```
 
+If you want to keep using telegram bot to send errors directly to your telegram account add token to getToken method of telegram bot.
+You can get telegram bot token from botFather on telegram. After that whoever press start button to bot gets error messages on their telegram account.
+
+
+
 ## Built With
 
 * [Spring](http://www.docs.spring.io/1.0.2/docs/) - The java framework used
